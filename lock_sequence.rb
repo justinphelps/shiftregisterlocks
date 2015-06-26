@@ -11,7 +11,7 @@ MAX = Integer 3124 #(5^5)-1
     y.tr!('2','5')
     y.tr!('1','3')
     y.tr!('0','1')
-     all_iterationsons << y.rjust(5,'1')
+    all_iterationsons << y.rjust(5,'1')
 end
 final_string = all_iterations.uniq.join + "99999"
-end
+
