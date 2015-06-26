@@ -1,6 +1,6 @@
 #20150626 Justin Phelps
 #Generates every combination sequence for a shift register based lock
-#This one transposes  numbers to odds for specific car door types
+#This one transposes base 5 numbers to base 10 odds for specific car door types
 #https://twitter.com/J0hnnyXm4s/status/613947889199501312/photo/1
 MAX = Integer 3124 #(5^5)-1
 (all_iterations ||= []) << "99999"
