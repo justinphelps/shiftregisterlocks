@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 #20150626 Justin Phelps
 #Generates every combination sequence for a shift register based lock
 #This one transposes base 5 numbers to base 10 odds for specific car door types
@@ -14,4 +15,4 @@ MAX = Integer 3124 #(5^5)-1
     all_iterations << y.rjust(5,'1')
 end
 final_string = all_iterations.uniq.join + "99999"
-
+puts final_string
