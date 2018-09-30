@@ -6,7 +6,7 @@
 MAX = Integer 3124 #(5^5)-1
 (all_iterations ||= []) << "99999"
 (0..MAX).each do |x|
-  y = x.to_s(5)
+    y = x.to_s(5)
     y.tr!('4','9')
     y.tr!('3','7')
     y.tr!('2','5')
